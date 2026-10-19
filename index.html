@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>Hello! This is the Portfolio of <span style="color: rgb(255, 111, 0);">Rumy</span></h1>
+        <p>Follow me to know more about me</p>
+
+    </header>
+    <nav>
+        ><a href="#about">About Myself</a><br>
+       ><a href="#education">Education</a><br>
+        ><a href="#">Contact Me</a><br>
+    </nav>
+    <main>
+        <section id="about" style="text-align: center;">
+            <h2 style="text-align: center;">About Me</h2>
+            <p>Hello! My name is <strong>Meer Ehsan Rumy</strong>.I am a Computer Science & Engineering graduate from <em>IUB</em> . I view <u>coding</u> as a <mark>form of art</mark>. My aim is to work at a professional software firm.</p>
+            <h3>My Picture</h3>
+            <img src="assets/My profile picture.jpg" width="200" alt="My profile picture">
+            <h3>My Favourite Audio</h3>
+            <audio controls src="assets/Recording.m4a" type="audio/.m4a">
+                Not supported by your browser
+            </audio>
+
+            <h3>More about me</h3>
+            <details><summary>Wanna know my secret</summary>
+            <p>I ain't passionate about learning new programming language and technology anymore</p></details>
+            <p>
+                <button type="button" onclick="alert('Thank you for visiting my profile. Stay tuned to learn more')">Click Me</button>
+            </p>
+        </section>
+        <section id="education" style="text-align: center;">
+            <h3>My educational Qualification</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Academing Degree Type</th>
+                        <th>Name of Institution</th>
+
+                        <th>Subject</th>
+                        <th>Passing Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bachelors </td>
+                        <td>Independent University, Bangladesh</td>
+                        <td>Computer Science and Engineering</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Higher Secondary Certificate (HSC)</td>
+                        <td>Bangladesh International School & College</td>
+                        <td>Science</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>Secondary School Certificate (SSC)</td>
+                        <td>Baridhara Scholars Institution</td>
+                        <td>Science</td>
+                        <td>2016</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+        <section id="contact" style="text-align: center;">
+           <h2>Contact</h2> 
+           <form action="#" method="post" onsubmit="event.alert('Just a demo form not sending info anywhere')"></form>
+
+        </section>
+    </main>
+</body>
+</html>
